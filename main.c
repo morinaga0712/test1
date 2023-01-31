@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main(void){
-	printf("hello");
+	int i=10;
+	while(i<10){
+		printf("hello %d", i);
+		i++;
+	}
 	return 0;
 }
